@@ -1,0 +1,23 @@
+header:
+  seq: 0
+  stamp:
+    secs: 0
+    nsecs: 0
+  frame_id: 'projector_optical_frame'
+height: 800
+width: 1280
+distortion_model: plumb_bob
+
+D: [0.0, 0.0, 0.0, 0.0, 0.0]
+K: [1900.0, 0.0, 640.0, 0.0, 1900.0, 817.0, 0.0, 0.0, 1.0]
+R: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+P: [1900.0, 0.0, 640, 0.0, 0.0, 1900.0, 750.0, 0.0, 0.0, 0.0, 1.0, 0.0]
+
+binning_x: 0
+binning_y: 0
+roi:
+  x_offset: 0
+  y_offset: 0
+  height: 0
+  width: 0
+  do_rectify: false

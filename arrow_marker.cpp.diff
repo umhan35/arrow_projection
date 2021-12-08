@@ -1,0 +1,13 @@
+diff --git a/src/rviz/default_plugin/markers/arrow_marker.cpp b/src/rviz/default_plugin/markers/arrow_marker.cpp
+index 57ed36b4..2afd7e04 100644
+--- a/src/rviz/default_plugin/markers/arrow_marker.cpp
++++ b/src/rviz/default_plugin/markers/arrow_marker.cpp
+@@ -105,7 +105,7 @@ void ArrowMarker::onNewMessage(const MarkerConstPtr& /*old_message*/, const Mark
+     }
+     float shaft_length = distance - head_length;
+ 
+-    arrow_->set(0.04, new_message->scale.x, 0.04, new_message->scale.y);
++    arrow_->set(shaft_length, new_message->scale.x, head_length, new_message->scale.y);
+ 
+     direction.normalise();
+ 

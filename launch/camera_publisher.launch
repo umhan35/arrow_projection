@@ -1,0 +1,4 @@
+<launch>
+	<node name="camera_info" pkg="rostopic" type="rostopic"
+		args="pub -l -f $(find arrow_projection)/projector_camera_info.yaml /projector/camera_info sensor_msgs/CameraInfo" />
+</launch>

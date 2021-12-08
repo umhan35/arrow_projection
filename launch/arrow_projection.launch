@@ -1,0 +1,4 @@
+<launch>
+	<include file="$(find arrow_projection)/launch/camera_publisher.launch" />
+	<include file="$(find arrow_projection)/launch/tf_publisher.launch" />
+</launch>
