@@ -1,12 +1,12 @@
 # Arrow Projection for Robot Navigation Path
 
-This repository contains code for the HRI 2022 Short Contributions paper: "Arrow Projection for Robot Navigation Path: Hardware Setup and Code for Projected AR".
+This repository contains code for the HRI 2022 Short Contributions paper: "**Projecting Robot Navigation Paths: Hardware and Software for Projected AR**".
 
 Paper website: [https://inside.mines.edu/~zhaohan/#hri2022b](https://inside.mines.edu/~zhaohan/#hri2022b).
 
 This package was tested with ROS Melodic on Ubuntu 18.04.
 
-It is recommended to read the [4-page paper](https://inside.mines.edu/~zhaohan/hri22-arrow-projection/hri-22-arrow-projection.pdf) to get an overview.
+It is recommended to read the [4-page paper](https://inside.mines.edu/~zhaohan/hri22-nav-paths-projection/hri22-nav-paths-projection-hardware-software-projected-AR.pdf) to get an overview.
 
 ## Hardware Requirement
 
