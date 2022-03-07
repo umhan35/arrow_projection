@@ -2,7 +2,7 @@
 
 This repository contains code for the HRI 2022 Short Contributions paper: "**Projecting Robot Navigation Paths: Hardware and Software for Projected AR**".
 
-Paper website: [https://inside.mines.edu/~zhaohan/#hri2022b](https://inside.mines.edu/~zhaohan/#hri2022b).
+Paper website: [https://zhaohanphd.com/publications/hri22b-projecting-robot-navigation-paths-hardware-and-software-for-projected-ar/](https://zhaohanphd.com/hri22b/).
 
 This package was tested with ROS Melodic on Ubuntu 18.04.
 
